@@ -11,20 +11,23 @@
    :search-for                            "...חפש"
    :cancel                                "בטל"
    :next                                  "הבא"
+   :open                                  "פתח"
+   :description                           "תאור"
+   :url                                   "כתובת אינטרנט"
    :type-a-message                        "...הקלד הודעה"
    :type-a-command                        "...הקלד פעולה"
    :error                                 "שגיאה"
+   :unknown-status-go-error               "שגיאת סטטוס גו לא ידועה"
+   :node-unavailable                      "קשר אתיריום לא רץ"
+   :yes                                   "כן"
+   :no                                    "לא" 
 
    :camera-access-error                   ".כדי להעניק את הרשאת המצלמה הנדרשת, בבקשה, תלכו להגדרות המערכת ותוודאו שהאופציה שנבחרה היא סטטוס > מצלמה"
    :photos-access-error                   ".כדי להעניק את הרשאת התמונות הנדרשת, בבקשה, תלכו להגדרות המערכת ותוודאו שהאופציה שנבחרה היא סטטוס > תמונות"
 
    ;drawer
-   :invite-friends                        "הזמן חברים"
-   :faq                                   "שאלות נפוצות"
    :switch-users                          "שנה משתמש"
-   :feedback                              "Got feedback?\nShake your phone!"
-   :view-all                              "View all"
-   :current-network                       "Current network"
+   :current-network                       "הרשת הנוכחית"
 
    ;chat
    :is-typing                             "מקליד"
@@ -51,10 +54,9 @@
    :sync-synced                           "מסונכרן"
 
    ;messages
-   :status-sending                        "שולח"
    :status-pending                        "ממתין"
    :status-sent                           "נשלחה"
-   :status-seen-by-everyone               "פומבי"
+   :status-seen-by-everyone               "נראה על ידי כולם"
    :status-seen                           "נראה"
    :status-delivered                      "התקבל"
    :status-failed                         "נכשל"
@@ -69,7 +71,6 @@
                                            :other "שעות"}
    :datetime-day                          {:one   "יום"
                                            :other "ימים"}
-   :datetime-multiple                     "s"
    :datetime-ago                          "לפני"
    :datetime-yesterday                    "אתמול"
    :datetime-today                        "היום"
@@ -77,26 +78,21 @@
     ;profile
    :profile                               "פרופיל"
    :edit-profile                          "ערוך פרופיל"
-   :report-user                           "דווח על המשתמש"
    :message                               "הודעה"
-   :username                              "שם משתמש"
    :not-specified                         "לא מוגדר"
    :public-key                            "מפתח פומבי"
    :phone-number                          "מספר טלפון"
-   :email                                 "אי-מייל"
    :update-status                         "...עדכן סטטוס"
    :add-a-status                          "...הוסף סטטוס"
    :status-prompt                         ".#hashtags צור סטטוס כדי ליידע אחרים בקשר לדברים אותם אתה מציע. אתה יכול גם להשתמש ב"
-
    :add-to-contacts                       "הוסף לאנשי קשר"
    :in-contacts                           "באנשי קשר"
    :remove-from-contacts                  "הסר מאנשי קשר"
    :start-conversation                    "התחל שיחה"
    :send-transaction                      "שלח עיסקה"
-   :share-qr                              "שתף ברקוד"
-   :error-incorrect-name                  "אנא בחר שם אחר"
-   :error-incorrect-email                 "כתובת מייל שגויה"
-
+   :testnet-text                          "אתה נמצא ברש {{testnet}} לבדיקות. אין לשלוח ETH או SNT אמיתי לכתובתך"
+   :mainnet-text                          "אתה נמצא ברשת האמיתית. ETH אמיתי עומד להשלח"
+    
    ;;make_photo
    :image-source-title                    "תמונת פרופיל"
    :image-source-make-photo               "צלם"
